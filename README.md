@@ -1,1 +1,2 @@
-simple firefox plugin that tracks daily facebook usage
+simple firefox add-on that tracks daily facebook useage
+
