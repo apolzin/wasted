@@ -9,7 +9,14 @@ timeWastedWarning.css('font-weight', 'bold');
 timeWastedWarning.css('font-family', 'helvetica');
 timeWastedWarning.css('font-size', '40px');
 timeWastedWarning.css('color', 'white');
+document.onmousemove = function(){
+  //self.port.emit('detectMouse',1);
+  console.log('bla');
+};
 
+$('body').mousemove(function(){
+  console.log('woopwoop');
+});
 self.port.on('updateClock', function(updatedTime){
   timeWastedWarning.html(updatedTime);
 });
