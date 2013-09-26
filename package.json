@@ -5,5 +5,12 @@
   "description": "tracks time spent on facebook",
   "author": "alexander polzin",
   "license": "MPL 2.0",
-  "version": "0.1.1"
+  "version": "0.1.1",
+  "preferences":[{
+    "name": "Time until Warning",
+    "title": "Max. Time",
+    "description": "Sets the amount of minutes until the Timer goes into the red",
+    "value": 30,
+    "type": "integer"
+  }]
 }
