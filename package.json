@@ -12,5 +12,11 @@
     "description": "Sets the amount of minutes until the Timer goes into the red",
     "value": 30,
     "type": "integer"
+  },{
+    "name": "AmountToDonate",
+    "title": "Cents per Month",
+    "description": "Sets the amount of Cents you want to donate for each minute you spend on facebook",
+    "value": 10,
+    "type": "integer"
   }]
 }
