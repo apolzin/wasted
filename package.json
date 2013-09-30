@@ -18,5 +18,17 @@
     "description": "Sets the amount of Cents you want to donate for each minute you spend on facebook",
     "value": 10,
     "type": "integer"
+  },{
+    "name": "WantToDonate",
+    "title": "Donations",
+    "description": "check here if you want to make donations",
+    "value": false,
+    "type": "bool"
+  },{
+    "name": "OrganisationWebsite",
+    "title": "Organisation Website",
+    "description": "put in the website you want to make donations to here",
+    "value": "http://wwf.de",
+    "type": "string"
   }]
 }
